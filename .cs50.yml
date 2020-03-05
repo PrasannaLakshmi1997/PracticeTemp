@@ -1,1 +1,12 @@
-lab50: true
+lab50: 
+ window:
+    - editor
+    - readme
+    - terminal
+    files:
+    - !include "foo/*.c"
+    - !include "foo/*.h"
+    - !inlcue foo/
+    - !exclude "*"
+    - !include "foo.*"
+    
